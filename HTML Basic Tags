@@ -88,7 +88,7 @@
 
 5.url
 
- <a href="https://www.google.co.in/">Google</a>
+ <a href="URL Link">Name</a>
     
 
 6.images
@@ -97,7 +97,7 @@
 
 7.videos
 
-<video src="https://www.youtube.com/embed/pQN-pnXPaVg" poster="name.jpg" autoplayls loop controls width="300"></video>
+<video src="Video Link" autoplayls loop controls width="300"></video>
 
 8.List
 
