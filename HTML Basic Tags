@@ -1,0 +1,198 @@
+                              --->HTML Basic Tags<---
+1.
+
+<!DOCTYPE html>  <!-- document type html -->
+<html>
+  <head>
+    <title>bala</title>
+  </head>
+  
+  <body>
+    
+  </body>
+</html>
+
+2.<!-- --> command line
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is awesome website">
+    <title>
+      balasuriya WEBSITE
+    </title>
+  </head>
+  <body>
+    
+    <h1><big>balasuriya </big> Website</h1>
+    <hr/> <!--- straight line --->
+    <br/> <!--- The br tag inserts a single line break --->
+    <p><b><i>This is a Web page</i></b></p>
+    <p>How is this paragraph<big>?</big> </p>
+   <p>10<sup>2</sup></p>    <!--- sup--- superscript text -->
+    <p>H<sub>2</sub>O</p>   <!--- sub--- subscript text --->
+  </body>
+</html>
+
+3.
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is awsome website">
+    <title>
+      balasuriya WEBSITE
+    </title>
+  </head>
+  <body style="background-color: lightblue;">
+    <!-- comment -->
+    <h1><big>NAME</big> Website</h1> <!-- we can use h1 to h6 it helps to vary the size-->
+    <hr/>
+    <br/>
+    <p><b><i>This is a Web page</i></b></p> <!-- b -- bold p--para i--italic-->
+    <p>How is this paragraph<big>?</big> </p>
+   <!-- style colour -->
+    <p style="color:white;">suriya</p>
+  </body>
+</html>
+
+
+4.
+///---header ----logo , link, name of website,navigation inside links
+---main---articles , images
+---footer ---social links, navigation///
+
+---->>>>----
+  <header>
+    <nav>
+      <!-- links -->
+    </nav>
+  </header>
+  <main>
+    <!-- articles -->
+    <article>
+      <!-- text -->
+      <section>
+        <aside>
+          
+        </aside>
+      </section>
+      <section>
+        
+      </section>
+    </article>
+  </main>
+  <footer>
+    
+  </footer>
+
+5.url
+
+ <a href="https://www.google.co.in/">Google</a>
+    
+
+6.images
+
+ <img width="100"   src = "pic.JPG" alt = "screen shot image"> 
+
+7.videos
+
+<video src="https://www.youtube.com/embed/pQN-pnXPaVg" poster="name.jpg" autoplayls loop controls width="300"></video>
+
+8.List
+
+ordered list <ol> 
+inordered list <ul>
+
+<ol type="i">
+ <li><a href="url">Apple</li> <!--<list iterm> -->
+ <li>Oranges
+   <ol>
+     <li>item1</li>
+   </ol>
+ </li>
+ <li>banana</li>
+</ol>
+
+9.
+
+description list -dl
+description term - dt
+describe the description term - dd
+<dl>
+ <dt>Apple</dt>
+ <dd>- They are red</d>
+</dl>
+
+10.
+table row (horizontal row) --->tr
+table data -td
+coloum title -th
+colspan = "2" means particular data occupy 2 coloum in table
+
+<table>
+ <thead>
+  <caption>List of Numbers</caption>
+  <tr>
+   <th>num1</th>
+   <th>num2</th>
+   <th>num3</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td colspan="2"> one </td>
+   <td> two </td>
+  </tr>
+ </tbody>
+</table>
+
+11.
+2 basic ways to display elements
+block elements 
+inline elements
+
+inline elements
+eg tags:
+1 <a href="#">link1</a>
+  <a href="#">links2</a>
+2 <span>span1</span>
+  <span>span2</span>
+
+block elements
+eg:
+1 <p>Paragraph1</p>
+  <p>Paragraph2</p>
+2 <div>div1</div>
+  <div>div2</div>
+
+
+12.Inputs and Forms
+
+  <input type="text" value="Enter your username" />
+  <input type="password" />
+  <input type="date" />
+  <input type="file" />
+  <input type="range"/>
+  <input name="btn" type="radio"/>
+  <input type="submit"/>
+
+  <textarea rows="10" cols="30">
+    Enter a paragraph
+  </textarea> 
+
+  <form>
+    <input type="submit"/>
+  </form>
+
+13.
+iframe used to display other website inside our webpage
+
+<iframe src="URL" frameboarder="0" width="1000" height="800"><iframe>
+
+14. meta tag
+    <meta charset="UTF-8">
+    <meta name="description" content="Your Description">
+    <meta name="author" content="Ram">
+    <meta name="Keywords" content="HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
